@@ -121,6 +121,24 @@ li {
 
 .titulos {
     color: #B8A06C;
+    position:static;
+    height: 45px;
+    align-items:  center;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+/* identical to box height, or 129% */
+
+    display: block;
+  
+  
+/* identical to box height, or 129% */
+
+
+
+
 }
 
 .conteudo-secundario {
@@ -141,12 +159,15 @@ li {
 
 
 .conteudo-sobre{
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     width: 62.5rem;
     margin-top: 6.25rem;
     color: #707070
 }
+
+
+
 .conteudo-secundario-titulo{
     font-style: normal;
     font-weight: 700;
@@ -154,10 +175,74 @@ li {
     line-height: 50px;
     text-align: justify;    
     color: #B8A06C;
+    display: block;
 }
 
 .topicos{
-    display: flex;
-    flex-direction: column;
+    
+    display: inline-block;
+    
+    margin-left: 10%;
+    height: 16em;
+    width: 20em;
+    
 }
 
+.texto{
+  margin-left: 5%
+    
+}
+.titulos-topicos{
+    display: block;
+    text-align: center;
+}
+.imagem{
+    text-align: center;
+}
+
+
+.button-comprar {
+    backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #6cb87a;
+  border-radius: 08px;
+  border: 0px solid #ffffff;
+  border-width: 0px 0px 0px 0px;
+  padding: 10px 20px 10px 20px;
+    color: #ffffff;
+  font-size: 21px;
+  font-family: Helvetica;
+  font-weight: 700;
+  font-style: normal;
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 2px 20px #6CB87A
+  }
+  .FAQ{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #B8A06C;
+  }
+  .container-faq{
+    display: inline-block;
+    flex-direction: column;
+    width: 62.5rem;
+    margin-top: 6.25rem;
+  }
+  .faq-questions{
+    background-color: #ffffff;
+    margin: 2em;
+    color: #707070;
+    text-align: justify;
+    border: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 5px 16px rgba(8, 15, 52, 0.06);
+    width: 1037px;
+    height: 110px;
+  }
+  .faq-questions p {
+    padding: 1em;
+  }
